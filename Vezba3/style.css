@@ -1,0 +1,35 @@
+.card {
+  border: 1px black solid;
+  width: 400px;
+  height: 450px;
+  border-radius: 8px;
+  background-color: grey;
+}
+
+.cardImage {
+  width: 90%;
+  height: 250px;
+  border-radius: 8px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cardTitle {
+  font-size: 25px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cardSubtitle {
+  font-size: 25px;
+  color: plum;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cardText {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}

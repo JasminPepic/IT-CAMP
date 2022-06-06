@@ -1,0 +1,28 @@
+.card {
+  background-color: rgb(219, 207, 207);
+  border-radius: 8px;
+  border: 1px black solid;
+  height: 400px;
+  width: 450px;
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.cardImage {
+  height: 50%;
+  width: 100%;
+}
+.cardTitle {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.cardSubtitle {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: grey;
+  margin-bottom: -3%;
+}
+.cardText {
+  margin-left: 5%;
+  margin-right: 5%;
+}
