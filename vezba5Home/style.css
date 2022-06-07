@@ -1,0 +1,66 @@
+.card {
+  background-color: rgb(48, 46, 46);
+  border-radius: 15px;
+  height: 480px;
+  width: 380px;
+  border: 2px white solid;
+  /* padding: 1px; */
+  float: left;
+  margin: 5%;
+}
+.cardSubtitle {
+  color: white;
+  margin: 6%;
+}
+.cardImage {
+  height: 250px;
+  width: 94%;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 15px;
+}
+.cardText {
+  font-size: 15px;
+  margin: 6%;
+  color: grey;
+}
+.cardIcon {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-top: 5%;
+  margin-left: 6%;
+  /* margin-bottom: -4%; */
+}
+.cardSubtitle2 {
+  color: white;
+  margin: 3% 3% 3% 6%;
+}
+.cardText2 {
+  font-size: 15px;
+  /* margin-left: 6%; */
+  margin: 0px 0px -10px 6%;
+  color: grey;
+}
+.cardIcon2 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  /* margin-left: 6%; */
+}
+.footer {
+  margin: 3% 6% 6% 6%;
+}
+.cardIcon4 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+.cardIcon3 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 120px;
+}
