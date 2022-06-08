@@ -1,0 +1,41 @@
+div {
+  border: 1px black solid;
+}
+p {
+  margin: 2%;
+}
+.card1 {
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  background-color: coral;
+}
+.card2 {
+  width: 150px;
+  height: 200px;
+  z-index: 2;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  background-color: red;
+}
+.card3 {
+  width: 450px;
+  height: 150px;
+  z-index: 3;
+  position: absolute;
+  left: 60px;
+  top: 300px;
+  background-color: blue;
+}
+.card4 {
+  width: 100px;
+  height: 400px;
+  z-index: 4;
+  position: absolute;
+  left: 450px;
+  background-color: green;
+}
