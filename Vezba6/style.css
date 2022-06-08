@@ -1,0 +1,43 @@
+.container {
+  border: 1px black solid;
+  width: 480px;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+.card1 {
+  border: 1px black solid;
+  margin: 2%;
+  height: 400px;
+  width: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.card2 {
+  border: 1px black solid;
+  margin: 2%;
+  height: 400px;
+  width: 100px;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+.card3 {
+  border: 1px black solid;
+  margin: 2%;
+  height: 400px;
+  width: 100px;
+  position: absolute;
+  left: 230px;
+  top: 10px;
+}
+.card4 {
+  border: 1px black solid;
+  margin: 2%;
+  height: 400px;
+  width: 100px;
+  position: absolute;
+  left: 340px;
+  top: 10px;
+}
