@@ -1,0 +1,29 @@
+div {
+  border: 2px black solid;
+}
+.card0 {
+  width: 800px;
+  height: 150px;
+  position: relative;
+}
+.card1 {
+  width: 350px;
+  height: 75px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.card2 {
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.card3 {
+  width: 500px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
