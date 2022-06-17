@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+  /* background-color: red; */
+  font size: 20px;
+  /* display: flex;
+  justify-content: space-between; */
+  width: 400px;
+}
+li {
+  /* background-color: aqua;
+  border: 1 black solid; */
+  /* color: red;
+  font-size: 19px;
+  font-weight: 700; */
+}
+div {
+  display: flex;
+  justify-content: space-between;
+}
