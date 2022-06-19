@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: aqua;
+}
+.lista1 {
+  width: 450px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 65%;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  font-size: large;
+  list-style-type: none;
+  /* background-color: red; */
+  border: 1px black solid;
+}
+.lista12 {
+  /* list-style-type: none; */
+  /* background-color: blue; */
+  /* margin-top: 5px; */
+}
+.lista12:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* .outlet {
+  color: red;
+} */
+
+.navigacija {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+.lista2 {
+  width: 250px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  /* justify-content: center; */
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.lista21 {
+}
+.lista21:hover {
+  cursor: pointer;
+  background-color: black;
+  padding: 10px 10px;
+  color: white;
+}
+.logoBuzz {
+  background-color: red;
+  width: 150px;
+  height: 80px;
+}
+.logoBuzz:hover {
+  cursor: pointer;
+}
+.logoMali {
+  padding: 0px;
+  margin: 0px;
+}
+.logoMali:hover {
+  cursor: pointer;
+}
+.search {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  right: 450px;
+  margin-top: 15px;
+}
+.search:hover {
+  cursor: pointer;
+}
+.slicice {
+  width: 150px;
+  position: absolute;
+  right: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.slicice:hover {
+  cursor: pointer;
+}
+nav {
+  background-color: pink;
+}
+div {
+  border: 1px black solid;
+}
