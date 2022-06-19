@@ -61,7 +61,7 @@ header {
   color: white;
 }
 .logoBuzz {
-  background-color: red;
+  /* background-color: red; */
   width: 150px;
   height: 80px;
 }
@@ -69,8 +69,8 @@ header {
   cursor: pointer;
 }
 .logoMali {
+  margin-top: 20px;
   padding: 0px;
-  margin: 0px;
 }
 .logoMali:hover {
   cursor: pointer;
@@ -101,4 +101,25 @@ nav {
 }
 div {
   border: 1px black solid;
+}
+.podMeni {
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+.podMeniCard {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  padding: 20px;
+}
+.listaArtikli {
+  list-style-type: none;
+  font-size: larger;
 }
