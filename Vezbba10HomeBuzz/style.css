@@ -111,6 +111,8 @@ div {
   flex-direction: row;
   justify-content: space-between;
   background-color: aquamarine;
+  position: absolute;
+  /* display: none; */
 }
 .podMeniCard {
   width: 60%;
