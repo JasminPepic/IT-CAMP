@@ -1,17 +1,20 @@
 * {
   box-sizing: border-box;
+  /* Da div ne menja velicinu, 
+  vec ako je potrebno da se smanje elementi unutar div-a */
 }
 body {
   padding: 0px;
   margin: 0px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 div {
   /* border: 1px black solid; */
 }
 .card1 {
+  margin: 1rem;
   width: 1500px;
   height: 700px;
   display: flex;
@@ -30,11 +33,12 @@ div {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   /* background-color: aquamarine; */
 }
 label {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
 }
 input {
   height: 50px;
