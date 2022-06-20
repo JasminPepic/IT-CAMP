@@ -3,7 +3,7 @@ body {
   padding: 0px;
 }
 header {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .lista1 {
   width: 450px;
@@ -17,7 +17,7 @@ header {
   font-size: large;
   list-style-type: none;
   /* background-color: red; */
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 .lista12 {
   /* list-style-type: none; */
@@ -51,6 +51,7 @@ header {
   margin-top: 50px;
   margin-bottom: 0px;
   padding: 0px;
+  position: relative;
 }
 .lista21 {
 }
@@ -97,31 +98,35 @@ header {
   cursor: pointer;
 }
 nav {
-  background-color: pink;
+  /* background-color: pink; */
 }
 div {
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 .podMeni {
   width: 100%;
   position: absolute;
-  top: 250px;
-  display: flex;
-  justify-content: left;
-  flex-direction: row;
+  top: 34px;
+  left: 0px;
+  /* display: flex; */
+  /* justify-content: left; */
+  /* flex-direction: row; */
   justify-content: space-between;
-  background-color: aquamarine;
-  position: absolute;
-  /* display: none; */
+  /* background-color: aquamarine; */
+  display: none;
 }
 .podMeniCard {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: red;
+  /* background-color: red; */
   padding: 20px;
 }
 .listaArtikli {
   list-style-type: none;
   font-size: larger;
+}
+.lista2:hover .podMeni {
+  display: block;
+  cursor: pointer;
 }
