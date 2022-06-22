@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* @media screen and (max-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+} */
+/* @media screen and (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+} */
+div {
+  border: 1px black solid;
+}
+.card {
+  width: 90%;
+  height: 80%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.card1 {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+.card2 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+@media screen and (max-width: 1000px) {
+  .card {
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .card1 {
+    width: 90%;
+  }
+  .card2 {
+    width: 90%;
+  }
+}
