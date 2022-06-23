@@ -180,3 +180,15 @@ li {
 .cardButtonContainer2:hover {
   background-color: rgb(70, 1, 70);
 }
+@media screen and (max-width: 1000px) {
+  .card {
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .card1 {
+    width: 90%;
+  }
+  .card2 {
+    width: 90%;
+  }
+}
