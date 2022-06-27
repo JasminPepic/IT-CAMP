@@ -181,7 +181,7 @@ li {
   background-color: rgb(70, 1, 70);
 }
 @media screen and (max-width: 1000px) {
-  .card {
+  .dubleDiv {
     flex-direction: column;
     /* width: 100%; */
   }
