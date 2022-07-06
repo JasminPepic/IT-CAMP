@@ -1,0 +1,31 @@
+table {
+  width: 60vw;
+  height: 60vh;
+  border-radius: 5px;
+  /* border-bottom: 3px solid rgb(38, 156, 38); */
+  border-collapse: collapse;
+  overflow: hidden;
+  /* border-collapse: collapse; da spoji border, da nema razmak izmedju */
+}
+.tr1 {
+  background-color: rgb(38, 156, 38);
+}
+th {
+  font-size: 30px;
+  font-weight: 600;
+  /* background-color: rgb(38, 156, 38); */
+}
+td {
+  font-size: 25px;
+  /* border-radius: 5px; */
+}
+tr:nth-child(3) {
+  background-color: rgb(170, 159, 159);
+  color: green;
+  font-weight: 600;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+.tr3 {
+  border-bottom: 3px solid rgb(38, 156, 38);
+}

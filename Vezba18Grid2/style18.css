@@ -1,0 +1,4 @@
+.container header {
+  background-color: red;
+}
+/* odnosi se samo na header unutar clase container */
