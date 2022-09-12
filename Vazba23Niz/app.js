@@ -57,19 +57,21 @@
 // }
 // console.log(array);
 
+//  POLONDROM
+
 // let unos = String(prompt("Unesite recenicu"));
 // let niz1 = [];
 // let niz2 = [];
-// // let unos1 = unos.replace(/\s+/g, "");
-// // {
-// //   niz1.push(unos1[i]);
-// // }
+// let unos1 = unos.replace(/\s+/g, "");
+// for (let i = 0; i < unos1.length; i++) {
+//   niz1.push(unos1[i]);
+// }
 // console.log(niz1);
 // for (let i = 0; i < unos.length; i++) {
 //   niz2.push(unos[i]);
 // }
 // for (let i = 0; i < unos.length - 1; i++) {
-//   if (niz1[i == niz2[i]]) {
+//   if (niz1[i] === niz2[i]) {
 //     console.log("Polindrom");
 //   } else {
 //     console.log("Nije polindrom");
@@ -77,21 +79,21 @@
 //   }
 // }
 
-let unos = prompt("Unesite recenicu");
-let niz1 = [];
-let niz2 = [];
+// let unos = prompt("Unesite recenicu");
+// let niz1 = [];
+// let niz2 = [];
 
-for (i = 0; i < unos.length; i++) {
-  niz1.push(unos[i]);
-}
-console.log(niz1);
+// for (i = 0; i < unos.length; i++) {
+//   niz1.push(unos[i]);
+// }
+// console.log(niz1);
 
-for (i = unos.length - 1; i >= 0; i--) {
-  niz2.push(unos[i]);
-}
-console.log(niz2);
-if (niz1 == niz2) {
-  console.log("palindrom");
-} else {
-  console.log("nije palindrom");
-}
+// for (i = unos.length - 1; i >= 0; i--) {
+//   niz2.push(unos[i]);
+// }
+// console.log(niz2);
+// if (niz1 == niz2) {
+//   console.log("palindrom");
+// } else {
+//   console.log("nije palindrom");
+// }
